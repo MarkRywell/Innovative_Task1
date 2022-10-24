@@ -38,39 +38,39 @@ class _MembersState extends State<Members> {
     ),
     const User(
         id: 2020302507,
-        name: 'Asareel Don F. Peña',
-        relationship: 'Unsent Boi',
+        name: 'Welyn G. Gaje',
+        relationship: 'Mother',
         Avatar: 'assets/don.JPG',
-        occupation: 'Student',
-        birthday: 'May 31, 2001',
-        age: 21
+        occupation: 'HouseWife',
+        birthday: 'November 26, 1976',
+        age: 45
     ),
     const User(
         id: 2020302940,
-        name: 'Chelsea Shaira C. Tibudan',
-        relationship: 'Ate',
+        name: 'Jory B. Gaje',
+        relationship: 'Father',
         Avatar: 'assets/chelsea.jpg',
-        occupation: 'Student',
-        birthday: 'May 31, 2001',
-        age: 29
+        occupation: 'Farmer',
+        birthday: 'January 8, 1973 ',
+        age: 49
     ),
     const User(
         id: 2020301996,
-        name: 'Ralph Jayson Senining',
-        relationship: 'Banal',
+        name: 'Paul Jowey G. Gaje',
+        relationship: 'Younger Brother',
         Avatar: 'assets/rj.png',
         occupation: 'Student',
         birthday: 'May 31, 2001',
-        age: 21
+        age: 16
     ),
     const User(
         id: 2020305455,
-        name: 'Louie Phillip Divinagracia',
-        relationship: 'LP',
+        name: 'Joe Emmanuel G. Gaje',
+        relationship: 'Youngest Brother',
         Avatar: 'assets/lp.png',
         occupation: 'Student',
-        birthday: 'May 31, 2001',
-        age: 21
+        birthday: 'January 6, 2016',
+        age: 6
     ),
   ];
 
@@ -88,7 +88,7 @@ class _MembersState extends State<Members> {
                 backgroundImage: AssetImage(user.Avatar),
               ),
               title: Text(user.name),
-              subtitle: Text('${user.id}'),
+              subtitle: Text('${user.relationship}'),
               trailing: Icon(Icons.arrow_forward_ios_outlined),
             ),
           );
