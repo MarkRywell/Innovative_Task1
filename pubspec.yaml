@@ -73,6 +73,11 @@ flutter:
     - assets/benting/llane2.jpg
     - assets/benting/llane3.jpg
     - assets/benting/llane4.jpg
+    - assets/sumagang/gia.jpg
+    - assets/sumagang/remegio.jpg
+    - assets/sumagang/kring.jpg
+    - assets/sumagang/vivian.jpg
+
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
