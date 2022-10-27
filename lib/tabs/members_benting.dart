@@ -30,7 +30,7 @@ class _MembersState extends State<Members> {
   List<User> users = [
     const User(
       id: 2020302619,
-      name: 'Mark Rywell G. Gaje',
+      name: 'Llane Graceza B. Benting',
       relationship: 'Me',
       Avatar: 'assets/gaje/mark.jpg',
       occupation: 'Student',
