@@ -32,7 +32,7 @@ class _MembersState extends State<Members> {
       id: 2020302619,
       name: 'Llane Graceza B. Benting',
       relationship: 'Me',
-      Avatar: 'assets/gaje/mark.jpg',
+      Avatar: 'assets/benting/llane.JPG',
       occupation: 'Student',
       birthday: 'May 31, 2001',
       age: 21
