@@ -34,7 +34,7 @@ class _MembersState extends State<Members> {
       relationship: 'Me',
       Avatar: 'assets/benting/llane.JPG',
       occupation: 'Student',
-      birthday: 'May 31, 2001',
+      birthday: 'June 8, 2001',
       age: 21
     ),
     const User(
