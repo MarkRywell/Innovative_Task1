@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:innovative_task1/tabs/Members.dart';
+import 'package:innovative_task1/tabs/members_gaje.dart';
 
 class SimpleApp extends StatefulWidget {
   const SimpleApp({Key? key}) : super(key: key);
@@ -8,33 +8,68 @@ class SimpleApp extends StatefulWidget {
   State<SimpleApp> createState() => _SimpleAppState();
 }
 
-class _SimpleAppState extends State<SimpleApp> {
+class _SimpleAppState extends State<SimpleApp> with SingleTickerProviderStateMixin{
+
+  late TabController tabController;
+
+  @override
+  void initState(){
+    tabController = TabController(length: 8, vsync: this);
+
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Container(
       color: Colors.blueGrey[900],
-        child: DefaultTabController(
-          length: 2,
           child: Scaffold(
             appBar: AppBar(
-              title: const Text("Innovative Task 1"),
-              bottom: const TabBar(
-                tabs: [
-                  Tab(text: "Members"),
-                  Tab(text: "Tab2")
+              leading: Container(
+                padding: EdgeInsets.only(left: 10),
+                child: CircleAvatar(
+                  backgroundImage: AssetImage('assets/gaje/mark.jpg'))) ,
+              title: const ListTile(
+                  title: Text("Innovative Task 1",
+                  style: TextStyle(
+                    fontSize: 16,
+                    fontWeight: FontWeight.w500
+                  )),
+                  subtitle: Text("Group 2",
+                  style: TextStyle(
+                    fontWeight: FontWeight.w500
+                  )),
+              ),
+              bottom:  TabBar(
+                controller: tabController,
+                  isScrollable: true,
+                tabs: const [
+                  Tab(text: "Mark Rywell G. Gaje"),
+                  Tab(text: "Asareel Don Pena"),
+                  Tab(text: "Chelsea Shaira C. Tibudan"),
+                  Tab(text: "Ralph Jayson Senining"),
+                  Tab(text: "Louie Phillip Divinagracia"),
+                  Tab(text: "Gia Sumagang"),
+                  Tab(text: "Van David Tabudlong"),
+                  Tab(text: "Llane Graceza Benting"),
                 ]
               )
             ),
             body: TabBarView(
-              children: [
-                  Members(),
-                Icon(Icons.abc)
+              controller: tabController,
+              children: const [
+                  Members(title: "Members Gaje"),
+                  Members(title: ""),
+                  Members(title: ""),
+                  Members(title: ""),
+                  Members(title: ""),
+                  Members(title: ""),
+                  Members(title: ""),
+                  Members(title: ""),
               ],
             )
           ),
 
-        )
-
-    );
+        );
   }
 }
