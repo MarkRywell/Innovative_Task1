@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:innovative_task1/tabs/members_gaje.dart';
-import 'package:innovative_task1/tabs/members_benting.dart';
+import 'package:innovative_task1/tabs/members_tabudlong.dart';
 
 class ProfilePage extends StatelessWidget {
   final User user;
