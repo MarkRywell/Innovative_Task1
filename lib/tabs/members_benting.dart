@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:innovative_task1/profile_page.dart';
+import 'package:innovative_task1/profile_page_benting.dart';
 
-class User{
+class User_Benting{
   final int id, age;
   final String name, relationship, Avatar, occupation, birthday;
 
-  const User({
+  const User_Benting({
     required this.id,
     required this.name,
     required this.relationship,
@@ -17,18 +17,18 @@ class User{
 
 }
 
-class Members extends StatefulWidget {
-  const Members({Key? key, required this.title}) : super(key: key);
+class Members_Benting extends StatefulWidget {
+  const Members_Benting({Key? key, required this.title}) : super(key: key);
   final String title;
 
   @override
-  State<Members> createState() => _MembersState();
+  State<Members_Benting> createState() => _Members_BentingState();
 }
 
-class _MembersState extends State<Members> {
+class _Members_BentingState extends State<Members_Benting> {
 
-  List<User> users = [
-    const User(
+  List<User_Benting> users = [
+    const User_Benting(
       id: 2020300787,
       name: 'Llane Graceza B. Benting',
       relationship: 'Me',
@@ -37,29 +37,32 @@ class _MembersState extends State<Members> {
       birthday: 'June 8, 2001',
       age: 21
     ),
-    const User(
+
+    const User_Benting(
         id: 2020300786,
         name: 'Mercy B. Benting',
         relationship: 'Mother',
-        Avatar: 'assets/gaje/mac.jpg',
+        Avatar: 'assets/benting/mac.jpg',
         occupation: 'HouseWife',
         birthday: 'May 11, 1984',
         age: 38
     ),
-    const User(
+
+    const User_Benting(
         id: 2020300785,
         name: 'Roberto B. Benting',
         relationship: 'Father',
-        Avatar: 'assets/gaje/roger.jpg',
+        Avatar: 'assets/benting/roger.jpg',
         occupation: 'Farmer',
         birthday: 'May 13, 1981 ',
         age: 41
     ),
+
     const User(
         id: 2020300788,
         name: 'Nashbert B. Benting',
         relationship: 'Youngest Brother',
-        Avatar: 'assets/gaje/nash.jpg',
+        Avatar: 'assets/benting/nash.jpg',
         occupation: 'Student',
         birthday: 'April 25, 2005',
         age: 17
@@ -68,25 +71,26 @@ class _MembersState extends State<Members> {
         id:2020300789,
         name: 'Llane Glaiza B. Benting',
         relationship: 'Youngest Sister',
-        Avatar: 'assets/gaje/llane2.jpg',
+        Avatar: 'assets/benting/llane2.jpg',
         occupation: 'Student',
         birthday: 'August 3, 2006',
         age: 16
     ),
-        const User(
+
+        const User_Benting(
         id:2020300790,
         name: 'Llane Alyzah B. Benting',
         relationship: 'Youngest Sister',
-        Avatar: 'assets/gaje/llane3.jpg',
+        Avatar: 'assets/benting/llane3.jpg',
         occupation: 'Student',
         birthday: 'January 17, 2015',
         age: 7
     ),
-    const User(
+    const User_Benting(
         id: 2020300790,
         name: 'Llane Alziah B. Benting',
         relationship: 'Youngest Sister',
-        Avatar: 'assets/gaje/llane3.jpg',
+        Avatar: 'assets/benting/llane3.jpg',
         occupation: 'None',
         birthday: 'December 30, 2020',
         age: 1
@@ -100,18 +104,18 @@ class _MembersState extends State<Members> {
       body: ListView.builder(
         itemCount: users.length,
         itemBuilder: (context, index){
-          final user = users[index];
+          final userbenting = users[index];
           return Card(
             child: ListTile(
               leading: CircleAvatar(
-                backgroundImage: AssetImage(user.Avatar),
+                backgroundImage: AssetImage(userbenting.Avatar),
               ),
-              title: Text(user.name),
-              subtitle: Text('${user.relationship}'),
+              title: Text(userbenting.name),
+              subtitle: Text('${userbenting.relationship}'),
               trailing: Icon(Icons.arrow_forward_ios_outlined),
               onTap: () {
                 Navigator.of(context).push(MaterialPageRoute(
-                  builder: (context) => ProfilePage(user: user)
+                  builder: (context) => ProfilePage(user :userbenting)
                 ));
               },
             ),
