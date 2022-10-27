@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:innovative_task1/profile_page.dart';
+import 'package:innovative_task1/profile_page_benting.dart';
 
-class User{
+class User_Benting{
   final int id, age;
   final String name, relationship, Avatar, occupation, birthday;
 
-  const User({
+  const User_Benting({
     required this.id,
     required this.name,
     required this.relationship,
@@ -17,18 +17,18 @@ class User{
 
 }
 
-class Members extends StatefulWidget {
-  const Members({Key? key, required this.title}) : super(key: key);
+class Members_Benting extends StatefulWidget {
+  const Members_Benting({Key? key, required this.title}) : super(key: key);
   final String title;
 
   @override
-  State<Members> createState() => _MembersState();
+  State<Members_Benting> createState() => _Members_BentingState();
 }
 
-class _MembersState extends State<Members> {
+class _Members_BentingState extends State<Members_Benting> {
 
-  List<User> users = [
-    const User(
+  List<User_Benting> users = [
+    const User_Benting(
       id: 2020300787,
       name: 'Llane Graceza B. Benting',
       relationship: 'Me',
@@ -37,7 +37,7 @@ class _MembersState extends State<Members> {
       birthday: 'June 8, 2001',
       age: 21
     ),
-    const User(
+    const User_Benting(
         id: 2020302507,
         name: 'Welyn G. Gaje',
         relationship: 'Mother',
@@ -46,7 +46,7 @@ class _MembersState extends State<Members> {
         birthday: 'November 26, 1976',
         age: 45
     ),
-    const User(
+    const User_Benting(
         id: 2020302940,
         name: 'Jory B. Gaje',
         relationship: 'Father',
@@ -55,7 +55,7 @@ class _MembersState extends State<Members> {
         birthday: 'January 8, 1973 ',
         age: 49
     ),
-    const User(
+    const User_Benting(
         id: 2020301996,
         name: 'Paul Jowey G. Gaje',
         relationship: 'Younger Brother',
@@ -64,7 +64,7 @@ class _MembersState extends State<Members> {
         birthday: 'May 31, 2001',
         age: 16
     ),
-    const User(
+    const User_Benting(
         id: 2020305455,
         name: 'Joe Emmanuel G. Gaje',
         relationship: 'Youngest Brother',
@@ -82,18 +82,18 @@ class _MembersState extends State<Members> {
       body: ListView.builder(
         itemCount: users.length,
         itemBuilder: (context, index){
-          final user = users[index];
+          final userbenting = users[index];
           return Card(
             child: ListTile(
               leading: CircleAvatar(
-                backgroundImage: AssetImage(user.Avatar),
+                backgroundImage: AssetImage(userbenting.Avatar),
               ),
-              title: Text(user.name),
-              subtitle: Text('${user.relationship}'),
+              title: Text(userbenting.name),
+              subtitle: Text('${userbenting.relationship}'),
               trailing: Icon(Icons.arrow_forward_ios_outlined),
               onTap: () {
                 Navigator.of(context).push(MaterialPageRoute(
-                  builder: (context) => ProfilePage(user: user)
+                  builder: (context) => ProfilePage(user :userbenting)
                 ));
               },
             ),

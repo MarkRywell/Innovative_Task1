@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:innovative_task1/profile_page.dart';
+import 'package:innovative_task1/profile_page_gaje.dart';
 
 class User{
   final int id, age;
