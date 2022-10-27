@@ -90,7 +90,7 @@ class _Members_BentingState extends State<Members_Benting> {
         id: 2020300790,
         name: 'Llane Alziah B. Benting',
         relationship: 'Youngest Sister',
-        Avatar: 'assets/benting/llane3.jpg',
+        Avatar: 'assets/benting/llane4.jpg',
         occupation: 'None',
         birthday: 'December 30, 2020',
         age: 1
