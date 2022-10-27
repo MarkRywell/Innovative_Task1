@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:innovative_task1/profile_page.dart';
 
-class User{
+class User_Sumagang{
   final int id, age;
   final String name, relationship, Avatar, occupation, birthday;
 
