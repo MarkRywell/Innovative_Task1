@@ -37,41 +37,63 @@ class _Members_BentingState extends State<Members_Benting> {
       birthday: 'June 8, 2001',
       age: 21
     ),
+
     const User_Benting(
-        id: 2020302507,
-        name: 'Welyn G. Gaje',
+        id: 2020300786,
+        name: 'Mercy B. Benting',
         relationship: 'Mother',
-        Avatar: 'assets/gaje/welyn.jpg',
+        Avatar: 'assets/benting/mac.jpg',
         occupation: 'HouseWife',
-        birthday: 'November 26, 1976',
-        age: 45
+        birthday: 'May 11, 1984',
+        age: 38
     ),
+
     const User_Benting(
-        id: 2020302940,
-        name: 'Jory B. Gaje',
+        id: 2020300785,
+        name: 'Roberto B. Benting',
         relationship: 'Father',
-        Avatar: 'assets/gaje/jory.jpg',
+        Avatar: 'assets/benting/roger.jpg',
         occupation: 'Farmer',
-        birthday: 'January 8, 1973 ',
-        age: 49
+        birthday: 'May 13, 1981 ',
+        age: 41
     ),
-    const User_Benting(
-        id: 2020301996,
-        name: 'Paul Jowey G. Gaje',
-        relationship: 'Younger Brother',
-        Avatar: 'assets/gaje/jowey.jpg',
+
+    const User(
+        id: 2020300788,
+        name: 'Nashbert B. Benting',
+        relationship: 'Youngest Brother',
+        Avatar: 'assets/benting/nash.jpg',
         occupation: 'Student',
-        birthday: 'May 31, 2001',
+        birthday: 'April 25, 2005',
+        age: 17
+    ),
+    const User(
+        id:2020300789,
+        name: 'Llane Glaiza B. Benting',
+        relationship: 'Youngest Sister',
+        Avatar: 'assets/benting/llane2.jpg',
+        occupation: 'Student',
+        birthday: 'August 3, 2006',
         age: 16
     ),
-    const User_Benting(
-        id: 2020305455,
-        name: 'Joe Emmanuel G. Gaje',
-        relationship: 'Youngest Brother',
-        Avatar: 'assets/gaje/manny.jpg',
+
+        const User_Benting(
+        id:2020300790,
+        name: 'Llane Alyzah B. Benting',
+        relationship: 'Youngest Sister',
+        Avatar: 'assets/benting/llane3.jpg',
         occupation: 'Student',
-        birthday: 'January 6, 2016',
-        age: 6
+        birthday: 'January 17, 2015',
+        age: 7
+    ),
+    const User_Benting(
+        id: 2020300790,
+        name: 'Llane Alziah B. Benting',
+        relationship: 'Youngest Sister',
+        Avatar: 'assets/benting/llane3.jpg',
+        occupation: 'None',
+        birthday: 'December 30, 2020',
+        age: 1
     ),
   ];
 
