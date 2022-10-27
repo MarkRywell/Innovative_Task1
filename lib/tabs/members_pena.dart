@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:innovative_task1/profile_page_gaje.dart';
+import 'package:innovative_task1/profile_page_pena.dart';
 
-class User{
+class User_Pena{
   final int id, age;
   final String name, relationship, Avatar, occupation, birthday;
 
-  const User({
+  const User_Pena({
     required this.id,
     required this.name,
     required this.relationship,
@@ -17,18 +17,18 @@ class User{
 
 }
 
-class Members extends StatefulWidget {
-  const Members({Key? key, required this.title}) : super(key: key);
+class Members_Pena extends StatefulWidget {
+  const Members_Pena({Key? key, required this.title}) : super(key: key);
   final String title;
 
   @override
-  State<Members> createState() => _MembersState();
+  State<Members_Pena> createState() => _Members_PenaState();
 }
 
-class _MembersState extends State<Members> {
+class _Members_PenaState extends State<Members_Pena> {
 
-  List<User> users = [
-    const User(
+  List<User_Pena> users = [
+    const User_Pena(
       id: 2020302619,
       name: 'Mark Rywell G. Gaje',
       relationship: 'Me',
@@ -37,7 +37,7 @@ class _MembersState extends State<Members> {
       birthday: 'May 31, 2001',
       age: 21
     ),
-    const User(
+    const User_Pena(
         id: 2020302507,
         name: 'Welyn G. Gaje',
         relationship: 'Mother',
@@ -46,7 +46,7 @@ class _MembersState extends State<Members> {
         birthday: 'November 26, 1976',
         age: 45
     ),
-    const User(
+    const User_Pena(
         id: 2020302940,
         name: 'Jory B. Gaje',
         relationship: 'Father',
@@ -55,7 +55,7 @@ class _MembersState extends State<Members> {
         birthday: 'January 8, 1973 ',
         age: 49
     ),
-    const User(
+    const User_Pena(
         id: 2020301996,
         name: 'Paul Jowey G. Gaje',
         relationship: 'Younger Brother',
@@ -64,7 +64,7 @@ class _MembersState extends State<Members> {
         birthday: 'May 31, 2001',
         age: 16
     ),
-    const User(
+    const User_Pena(
         id: 2020305455,
         name: 'Joe Emmanuel G. Gaje',
         relationship: 'Youngest Brother',

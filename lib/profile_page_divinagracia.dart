@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:innovative_task1/tabs/members_benting.dart';
+import 'package:innovative_task1/tabs/members_divinagracia.dart';
 
 class ProfilePage extends StatelessWidget {
-  final User user;
+  final User_Divinagracia user;
 
   const ProfilePage({Key? key, required this.user,}) : super(key: key);
 

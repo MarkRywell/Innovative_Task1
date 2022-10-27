@@ -58,7 +58,7 @@ class _Members_BentingState extends State<Members_Benting> {
         age: 41
     ),
 
-    const User(
+    const User_Benting(
         id: 2020300788,
         name: 'Nashbert B. Benting',
         relationship: 'Youngest Brother',
@@ -67,7 +67,7 @@ class _Members_BentingState extends State<Members_Benting> {
         birthday: 'April 25, 2005',
         age: 17
     ),
-    const User(
+    const User_Benting(
         id:2020300789,
         name: 'Llane Glaiza B. Benting',
         relationship: 'Youngest Sister',

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:innovative_task1/tabs/members_tibudan.dart';
 
 class ProfilePage extends StatelessWidget {
-  final User user;
+  final User_Tibudan user;
 
   const ProfilePage({Key? key, required this.user,}) : super(key: key);
 

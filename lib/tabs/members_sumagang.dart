@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:innovative_task1/profile_page_gaje.dart';
+import 'package:innovative_task1/profile_page_sumagang.dart';
 
 class User_Sumagang {
   final int id, age;
@@ -15,17 +15,17 @@ class User_Sumagang {
       required this.age});
 }
 
-class Members extends StatefulWidget {
-  const Members({Key? key, required this.title}) : super(key: key);
+class Members_Sumagang extends StatefulWidget {
+  const Members_Sumagang({Key? key, required this.title}) : super(key: key);
   final String title;
 
   @override
-  State<Members> createState() => _MembersState();
+  State<Members_Sumagang> createState() => _Members_SumagangState();
 }
 
-class _MembersState extends State<Members> {
-  List<User> users = [
-    const User(
+class _Members_SumagangState extends State<Members_Sumagang> {
+  List<User_Sumagang> users = [
+    const User_Sumagang(
         id: 2020302619,
         name: 'Mark Rywell G. Gaje',
         relationship: 'Me',
@@ -33,7 +33,7 @@ class _MembersState extends State<Members> {
         occupation: 'Student',
         birthday: 'May 31, 2001',
         age: 21),
-    const User(
+    const User_Sumagang(
         id: 2020302507,
         name: 'Welyn G. Gaje',
         relationship: 'Mother',
@@ -41,7 +41,7 @@ class _MembersState extends State<Members> {
         occupation: 'HouseWife',
         birthday: 'November 26, 1976',
         age: 45),
-    const User(
+    const User_Sumagang(
         id: 2020302940,
         name: 'Jory B. Gaje',
         relationship: 'Father',
@@ -49,7 +49,7 @@ class _MembersState extends State<Members> {
         occupation: 'Farmer',
         birthday: 'January 8, 1973 ',
         age: 49),
-    const User(
+    const User_Sumagang(
         id: 2020301996,
         name: 'Paul Jowey G. Gaje',
         relationship: 'Younger Brother',
@@ -57,7 +57,7 @@ class _MembersState extends State<Members> {
         occupation: 'Student',
         birthday: 'May 31, 2001',
         age: 16),
-    const User(
+    const User_Sumagang(
         id: 2020305455,
         name: 'Joe Emmanuel G. Gaje',
         relationship: 'Youngest Brother',
