@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:innovative_task1/tabs/members_divinagracia.dart';
 import 'package:innovative_task1/tabs/members_gaje.dart';
 import 'package:innovative_task1/tabs/members_benting.dart';
+import 'package:innovative_task1/tabs/members_pena.dart';
+import 'package:innovative_task1/tabs/members_senining.dart';
 import 'package:innovative_task1/tabs/members_sumagang.dart';
 import 'package:innovative_task1/tabs/members_tabudlong.dart';
+import 'package:innovative_task1/tabs/members_tibudan.dart';
 
 class SimpleApp extends StatefulWidget {
   const SimpleApp({Key? key}) : super(key: key);
@@ -62,10 +66,10 @@ class _SimpleAppState extends State<SimpleApp> with SingleTickerProviderStateMix
               controller: tabController,
               children: const [
                   Members(title: "Members Gaje"),
-                  Members(title: ""),
-                  Members(title: ""),
-                  Members(title: ""),
-                  Members(title: ""),
+                  Members_Pena(title: "Members Pena"),
+                  Members_Tibudan(title: "Members Tibudan"),
+                  Members_Senining(title: "Members Senining"),
+                  Members_Divinagracia(title: "Members Divinagracia"),
                   Members_Sumagang(title: "Members Sumagang"),
                   Members_Tabudlong(title: "Members Tabudlong"),
                   Members_Benting(title: "Members Benting"),
