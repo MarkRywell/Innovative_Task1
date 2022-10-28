@@ -29,49 +29,49 @@ class _Members_TabudlongState extends State<Members_Tabudlong> {
 
   List<User_Tabudlong> users = [
     const User_Tabudlong(
-      id: 2020302619,
-      name: 'Mark Rywell G. Gaje',
+      id: 2020302123,
+      name: 'Van David T. Tabudlong',
       relationship: 'Me',
-      Avatar: 'assets/gaje/mark.jpg',
+      Avatar: 'assets/tabudlong/van.jpg',
       occupation: 'Student',
-      birthday: 'May 31, 2001',
-      age: 21
+      birthday: 'June 17, 2002',
+      age: 20
     ),
     const User_Tabudlong(
-        id: 2020302507,
-        name: 'Welyn G. Gaje',
+        id: 2020302234,
+        name: 'Ian T. Tabudlong',
+        relationship: 'Father',
+        Avatar: 'assets/tabudlong/ian.jpg',
+        occupation: 'Teacher',
+        birthday: 'December 21, 1975',
+        age: 46
+    ),
+    const User_Tabudlong(
+        id: 2020302345,
+        name: 'Neneth T. Tabudlong',
         relationship: 'Mother',
-        Avatar: 'assets/gaje/welyn.jpg',
-        occupation: 'HouseWife',
-        birthday: 'November 26, 1976',
+        Avatar: 'assets/tabudlong/neneth.jpg',
+        occupation: 'Government Employee',
+        birthday: 'August 26, 1976 ',
         age: 45
     ),
     const User_Tabudlong(
-        id: 2020302940,
-        name: 'Jory B. Gaje',
-        relationship: 'Father',
-        Avatar: 'assets/gaje/jory.jpg',
-        occupation: 'Farmer',
-        birthday: 'January 8, 1973 ',
-        age: 49
+        id: 2020301456,
+        name: 'Val Ian T. Tabudlong',
+        relationship: 'Older Brother',
+        Avatar: 'assets/tabudlong/val.jpg',
+        occupation: 'Police',
+        birthday: 'December 03, 1996',
+        age: 25
     ),
     const User_Tabudlong(
-        id: 2020301996,
-        name: 'Paul Jowey G. Gaje',
-        relationship: 'Younger Brother',
-        Avatar: 'assets/gaje/jowey.jpg',
+        id: 2020305567,
+        name: 'Valerie T. Tabudlong',
+        relationship: 'Youngest Sister',
+        Avatar: 'assets/tabudlong/valerie.jpg',
         occupation: 'Student',
-        birthday: 'May 31, 2001',
-        age: 16
-    ),
-    const User_Tabudlong(
-        id: 2020305455,
-        name: 'Joe Emmanuel G. Gaje',
-        relationship: 'Youngest Brother',
-        Avatar: 'assets/gaje/manny.jpg',
-        occupation: 'Student',
-        birthday: 'January 6, 2016',
-        age: 6
+        birthday: 'April 19, 2005',
+        age: 17
     ),
   ];
 
