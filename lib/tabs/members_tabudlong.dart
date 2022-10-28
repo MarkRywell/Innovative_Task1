@@ -1,21 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:innovative_task1/profile_page_tabudlong.dart';
-
-class User_Tabudlong{
-  final int id, age;
-  final String name, relationship, Avatar, occupation, birthday;
-
-  const User_Tabudlong({
-    required this.id,
-    required this.name,
-    required this.relationship,
-    required this.Avatar,
-    required this.occupation,
-    required this.birthday,
-    required this.age
-  });
-
-}
+import 'package:innovative_task1/profile_page.dart';
+import 'package:innovative_task1/users.dart';
 
 class Members_Tabudlong extends StatefulWidget {
   const Members_Tabudlong({Key? key, required this.title}) : super(key: key);
@@ -27,8 +12,8 @@ class Members_Tabudlong extends StatefulWidget {
 
 class _Members_TabudlongState extends State<Members_Tabudlong> {
 
-  List<User_Tabudlong> users = [
-    const User_Tabudlong(
+  List<User> users = [
+    const User(
       id: 2020302123,
       name: 'Van David T. Tabudlong',
       relationship: 'Me',
@@ -37,7 +22,7 @@ class _Members_TabudlongState extends State<Members_Tabudlong> {
       birthday: 'June 17, 2002',
       age: 20
     ),
-    const User_Tabudlong(
+    const User(
         id: 2020302234,
         name: 'Ian T. Tabudlong',
         relationship: 'Father',
@@ -46,7 +31,7 @@ class _Members_TabudlongState extends State<Members_Tabudlong> {
         birthday: 'December 21, 1975',
         age: 46
     ),
-    const User_Tabudlong(
+    const User(
         id: 2020302345,
         name: 'Neneth T. Tabudlong',
         relationship: 'Mother',
@@ -55,7 +40,7 @@ class _Members_TabudlongState extends State<Members_Tabudlong> {
         birthday: 'August 26, 1976 ',
         age: 45
     ),
-    const User_Tabudlong(
+    const User(
         id: 2020301456,
         name: 'Val Ian T. Tabudlong',
         relationship: 'Older Brother',
@@ -64,7 +49,7 @@ class _Members_TabudlongState extends State<Members_Tabudlong> {
         birthday: 'December 03, 1996',
         age: 25
     ),
-    const User_Tabudlong(
+    const User(
         id: 2020305567,
         name: 'Valerie T. Tabudlong',
         relationship: 'Youngest Sister',

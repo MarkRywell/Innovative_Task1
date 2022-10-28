@@ -1,21 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:innovative_task1/profile_page_benting.dart';
+import 'package:innovative_task1/profile_page.dart';
+import 'package:innovative_task1/users.dart';
 
-class User_Benting{
-  final int id, age;
-  final String name, relationship, Avatar, occupation, birthday;
-
-  const User_Benting({
-    required this.id,
-    required this.name,
-    required this.relationship,
-    required this.Avatar,
-    required this.occupation,
-    required this.birthday,
-    required this.age
-  });
-
-}
 
 class Members_Benting extends StatefulWidget {
   const Members_Benting({Key? key, required this.title}) : super(key: key);
@@ -27,8 +13,8 @@ class Members_Benting extends StatefulWidget {
 
 class _Members_BentingState extends State<Members_Benting> {
 
-  List<User_Benting> users = [
-    const User_Benting(
+  List<User> users = [
+    const User(
       id: 2020300787,
       name: 'Llane Graceza B. Benting',
       relationship: 'Me',
@@ -38,7 +24,7 @@ class _Members_BentingState extends State<Members_Benting> {
       age: 21
     ),
 
-    const User_Benting(
+    const User(
         id: 2020300786,
         name: 'Mercy B. Benting',
         relationship: 'Mother',
@@ -48,7 +34,7 @@ class _Members_BentingState extends State<Members_Benting> {
         age: 38
     ),
 
-    const User_Benting(
+    const User(
         id: 2020300785,
         name: 'Roberto B. Benting',
         relationship: 'Father',
@@ -58,7 +44,7 @@ class _Members_BentingState extends State<Members_Benting> {
         age: 41
     ),
 
-    const User_Benting(
+    const User(
         id: 2020300788,
         name: 'Nashbert B. Benting',
         relationship: 'Youngest Brother',
@@ -67,7 +53,7 @@ class _Members_BentingState extends State<Members_Benting> {
         birthday: 'April 25, 2005',
         age: 17
     ),
-    const User_Benting(
+    const User(
         id:2020300789,
         name: 'Llane Glaiza B. Benting',
         relationship: 'Youngest Sister',
@@ -77,7 +63,7 @@ class _Members_BentingState extends State<Members_Benting> {
         age: 16
     ),
 
-        const User_Benting(
+        const User(
         id:2020300790,
         name: 'Llane Alyzah B. Benting',
         relationship: 'Youngest Sister',
@@ -86,7 +72,7 @@ class _Members_BentingState extends State<Members_Benting> {
         birthday: 'January 17, 2015',
         age: 7
     ),
-    const User_Benting(
+    const User(
         id: 2020300790,
         name: 'Llane Alziah B. Benting',
         relationship: 'Youngest Sister',

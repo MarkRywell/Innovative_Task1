@@ -1,21 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:innovative_task1/profile_page_pena.dart';
-
-class User_Pena{
-  final int id, age;
-  final String name, relationship, Avatar, occupation, birthday;
-
-  const User_Pena({
-    required this.id,
-    required this.name,
-    required this.relationship,
-    required this.Avatar,
-    required this.occupation,
-    required this.birthday,
-    required this.age
-  });
-
-}
+import 'package:innovative_task1/profile_page.dart';
+import 'package:innovative_task1/users.dart';
 
 class Members_Pena extends StatefulWidget {
   const Members_Pena({Key? key, required this.title}) : super(key: key);
@@ -27,8 +12,8 @@ class Members_Pena extends StatefulWidget {
 
 class _Members_PenaState extends State<Members_Pena> {
 
-  List<User_Pena> users = [
-    const User_Pena(
+  List<User> users = [
+    const User(
       id: 2020302619,
       name: 'Mark Rywell G. Gaje',
       relationship: 'Me',
@@ -37,7 +22,7 @@ class _Members_PenaState extends State<Members_Pena> {
       birthday: 'May 31, 2001',
       age: 21
     ),
-    const User_Pena(
+    const User(
         id: 2020302507,
         name: 'Welyn G. Gaje',
         relationship: 'Mother',
@@ -46,7 +31,7 @@ class _Members_PenaState extends State<Members_Pena> {
         birthday: 'November 26, 1976',
         age: 45
     ),
-    const User_Pena(
+    const User(
         id: 2020302940,
         name: 'Jory B. Gaje',
         relationship: 'Father',
@@ -55,7 +40,7 @@ class _Members_PenaState extends State<Members_Pena> {
         birthday: 'January 8, 1973 ',
         age: 49
     ),
-    const User_Pena(
+    const User(
         id: 2020301996,
         name: 'Paul Jowey G. Gaje',
         relationship: 'Younger Brother',
@@ -64,7 +49,7 @@ class _Members_PenaState extends State<Members_Pena> {
         birthday: 'May 31, 2001',
         age: 16
     ),
-    const User_Pena(
+    const User(
         id: 2020305455,
         name: 'Joe Emmanuel G. Gaje',
         relationship: 'Youngest Brother',

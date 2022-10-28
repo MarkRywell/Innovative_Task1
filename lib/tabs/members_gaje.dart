@@ -1,21 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:innovative_task1/profile_page_gaje.dart';
+import 'package:innovative_task1/profile_page.dart';
+import 'package:innovative_task1/users.dart';
 
-class User{
-  final int id, age;
-  final String name, relationship, Avatar, occupation, birthday;
-
-  const User({
-    required this.id,
-    required this.name,
-    required this.relationship,
-    required this.Avatar,
-    required this.occupation,
-    required this.birthday,
-    required this.age
-  });
-
-}
 
 class Members extends StatefulWidget {
   const Members({Key? key, required this.title}) : super(key: key);

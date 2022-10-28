@@ -1,19 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:innovative_task1/profile_page_sumagang.dart';
+import 'package:innovative_task1/profile_page.dart';
+import 'package:innovative_task1/users.dart';
 
-class User_Sumagang {
-  final int id, age;
-  final String name, relationship, Avatar, occupation, birthday;
-
-  const User_Sumagang(
-      {required this.id,
-      required this.name,
-      required this.relationship,
-      required this.Avatar,
-      required this.occupation,
-      required this.birthday,
-      required this.age});
-}
 
 class Members_Sumagang extends StatefulWidget {
   const Members_Sumagang({Key? key, required this.title}) : super(key: key);
@@ -24,8 +12,8 @@ class Members_Sumagang extends StatefulWidget {
 }
 
 class _Members_SumagangState extends State<Members_Sumagang> {
-  List<User_Sumagang> users = [
-    const User_Sumagang(
+  List<User> users = [
+    const User(
         id: 2020302955,
         name: 'Gia C. Sumagang',
         relationship: 'Me',
@@ -33,7 +21,7 @@ class _Members_SumagangState extends State<Members_Sumagang> {
         occupation: 'Student',
         birthday: 'August 30, 2002',
         age: 20),
-    const User_Sumagang(
+    const User(
         id: 2751643297,
         name: 'Vivian C. Sumagang',
         relationship: 'Mother',
@@ -41,7 +29,7 @@ class _Members_SumagangState extends State<Members_Sumagang> {
         occupation: 'HouseWife',
         birthday: 'June 20, 1980',
         age: 43),
-    const User_Sumagang(
+    const User(
         id: 27532522332,
         name: 'Remegio L. Sumagang',
         relationship: 'Father',
@@ -49,7 +37,7 @@ class _Members_SumagangState extends State<Members_Sumagang> {
         occupation: 'Farmer',
         birthday: 'October 1, 1969 ',
         age: 53),
-    const User_Sumagang(
+    const User(
         id: 0030,
         name: 'Keren Keziah C. Sumagang',
         relationship: 'Younger Sister',
