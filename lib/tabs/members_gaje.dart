@@ -38,7 +38,7 @@ class _MembersState extends State<Members> {
       age: 21
     ),
     const User(
-        id: 2020302507,
+        id: 2020302618,
         name: 'Welyn G. Gaje',
         relationship: 'Mother',
         Avatar: 'assets/gaje/welyn.jpg',
@@ -47,7 +47,7 @@ class _MembersState extends State<Members> {
         age: 45
     ),
     const User(
-        id: 2020302940,
+        id: 2020302617,
         name: 'Jory B. Gaje',
         relationship: 'Father',
         Avatar: 'assets/gaje/jory.jpg',
@@ -56,7 +56,7 @@ class _MembersState extends State<Members> {
         age: 49
     ),
     const User(
-        id: 2020301996,
+        id: 2020302616,
         name: 'Paul Jowey G. Gaje',
         relationship: 'Younger Brother',
         Avatar: 'assets/gaje/jowey.jpg',
@@ -65,7 +65,7 @@ class _MembersState extends State<Members> {
         age: 16
     ),
     const User(
-        id: 2020305455,
+        id: 2020302615,
         name: 'Joe Emmanuel G. Gaje',
         relationship: 'Youngest Brother',
         Avatar: 'assets/gaje/manny.jpg',
