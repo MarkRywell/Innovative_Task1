@@ -15,49 +15,30 @@ class _Members_DivinagraciaState extends State<Members_Divinagracia> {
   List<User> users = [
     const User(
       id: 2020302619,
-      name: 'Mark Rywell G. Gaje',
+      name: 'Louie Phillip Divinagracia',
       relationship: 'Me',
-      Avatar: 'assets/gaje/mark.jpg',
+      Avatar: 'assets/divinagracia/louie.jpg',
       occupation: 'Student',
-      birthday: 'May 31, 2001',
+      birthday: 'February 13, 2001',
       age: 21
     ),
     const User(
         id: 2020302507,
-        name: 'Welyn G. Gaje',
-        relationship: 'Mother',
-        Avatar: 'assets/gaje/welyn.jpg',
-        occupation: 'HouseWife',
-        birthday: 'November 26, 1976',
-        age: 45
+        name: 'Gilda Divinagracia',
+        relationship: 'Mother', 
+        Avatar: 'assets/divinagracia/gilda.jpg',
+        occupation: 'Accountant',
+        birthday: 'April 25, 1988',
+        age: 59
     ),
     const User(
         id: 2020302940,
-        name: 'Jory B. Gaje',
+        name: 'Serafin Divinagracia',
         relationship: 'Father',
-        Avatar: 'assets/gaje/jory.jpg',
+        Avatar: 'assets/divinagracia/serafin.jpg',
         occupation: 'Farmer',
-        birthday: 'January 8, 1973 ',
-        age: 49
-    ),
-    const User(
-        id: 2020301996,
-        name: 'Paul Jowey G. Gaje',
-        relationship: 'Younger Brother',
-        Avatar: 'assets/gaje/jowey.jpg',
-        occupation: 'Student',
-        birthday: 'May 31, 2001',
-        age: 16
-    ),
-    const User(
-        id: 2020305455,
-        name: 'Joe Emmanuel G. Gaje',
-        relationship: 'Youngest Brother',
-        Avatar: 'assets/gaje/manny.jpg',
-        occupation: 'Student',
-        birthday: 'January 6, 2016',
-        age: 6
-    ),
+        birthday: 'Febraury 16, 1970 ',
+        age: 55
   ];
 
   @override
