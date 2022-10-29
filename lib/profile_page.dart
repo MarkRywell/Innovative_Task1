@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:innovative_task1/users.dart';
 import 'package:innovative_task1/text_custom_widget.dart';
 
-
 class ProfilePage extends StatelessWidget {
   final User user;
 
@@ -16,7 +15,7 @@ class ProfilePage extends StatelessWidget {
           title: Text(user.name)
         ),
         body: ListView(
-          padding: EdgeInsets.zero,
+          padding: EdgeInsets.only(left: 15, right: 15),
 
           children: [
             Container(

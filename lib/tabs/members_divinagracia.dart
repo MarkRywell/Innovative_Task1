@@ -17,7 +17,7 @@ class _Members_DivinagraciaState extends State<Members_Divinagracia> {
       id: 2020302619,
       name: 'Louie Phillip Divinagracia',
       relationship: 'Me',
-      Avatar: 'assets/divinagracia/louie.jpg',
+      Avatar: 'assets/divinagracia/lp.png',
       occupation: 'Student',
       birthday: 'February 13, 2001',
       age: 21
@@ -39,6 +39,7 @@ class _Members_DivinagraciaState extends State<Members_Divinagracia> {
         occupation: 'Farmer',
         birthday: 'Febraury 16, 1970 ',
         age: 55
+    )
   ];
 
   @override

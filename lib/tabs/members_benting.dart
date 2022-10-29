@@ -56,7 +56,7 @@ class _Members_BentingState extends State<Members_Benting> {
     const User(
         id:2020300789,
         name: 'Llane Glaiza B. Benting',
-        relationship: 'Youngest Sister',
+        relationship: 'Younger Sister',
         Avatar: 'assets/benting/llane2.jpg',
         occupation: 'Student',
         birthday: 'August 3, 2006',
@@ -66,7 +66,7 @@ class _Members_BentingState extends State<Members_Benting> {
         const User(
         id:2020300790,
         name: 'Llane Alyzah B. Benting',
-        relationship: 'Youngest Sister',
+        relationship: 'Younger Sister',
         Avatar: 'assets/benting/llane3.jpg',
         occupation: 'Student',
         birthday: 'January 17, 2015',

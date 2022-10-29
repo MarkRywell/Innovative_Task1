@@ -44,12 +44,11 @@ class _Members_SeniningState extends State<Members_Senining> {
         id: 202030789,
         name: 'Rowelo Senining',
         relationship: 'Father',
-        Avatar: '',
+        Avatar: 'Icons.person',
         occupation: 'Painter',
-        birthday: '',
+        birthday: 'May 28',
         age: 54
     )
-    
   ];
 
   @override

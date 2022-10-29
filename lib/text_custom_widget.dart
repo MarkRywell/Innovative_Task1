@@ -10,7 +10,7 @@ class TextCustom extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.only(left: 30, right: 20),
+      padding: EdgeInsets.only(left: 10, right: 10),
 
       child: Row(
           children: [
