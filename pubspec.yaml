@@ -82,6 +82,9 @@ flutter:
     - assets/tabudlong/neneth.jpg
     - assets/tabudlong/val.jpg
     - assets/tabudlong/valerie.jpg
+    - assets/senining/rj.png
+    - assets/senining/Maria.jpg
+    - assets/senining/Roxein.jpg
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
