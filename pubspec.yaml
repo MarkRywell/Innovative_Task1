@@ -85,7 +85,9 @@ flutter:
     - assets/divinagracia/louie.jpg
     - assets/divinagracia/gilda.jpg
     - assets/divinagracia/serafin.jpg
-
+    - assets/senining/rj.png
+    - assets/senining/Maria.jpg
+    - assets/senining/Roxein.jpg
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
