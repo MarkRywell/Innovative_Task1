@@ -14,50 +14,42 @@ class _Members_SeniningState extends State<Members_Senining> {
 
   List<User> users = [
     const User(
-      id: 2020302619,
-      name: 'Mark Rywell G. Gaje',
+      id: 2020301996,
+      name: 'Ralph Jayson D. Senining',
       relationship: 'Me',
-      Avatar: 'assets/gaje/mark.jpg',
+      Avatar: 'assets/senining/rj.png',
       occupation: 'Student',
       birthday: 'May 31, 2001',
       age: 21
     ),
     const User(
-        id: 2020302507,
-        name: 'Welyn G. Gaje',
+        id: 2020301234,
+        name: 'Maria Susan Senining',
         relationship: 'Mother',
-        Avatar: 'assets/gaje/welyn.jpg',
+        Avatar: 'assets/senining/Maria.jpg',
         occupation: 'HouseWife',
-        birthday: 'November 26, 1976',
-        age: 45
+        birthday: 'February 23, 1968',
+        age: 54 
     ),
     const User(
-        id: 2020302940,
-        name: 'Jory B. Gaje',
+        id: 202030456,
+        name: 'Roxein Mae Senining',
+        relationship: 'Sister',
+        Avatar: 'assets/senining/Roxein.jpg',
+        occupation: 'Cofipac',
+        birthday: 'February 3, 1991 ',
+        age: 31
+    ),
+    const User(
+        id: 202030789,
+        name: 'Rowelo Senining',
         relationship: 'Father',
-        Avatar: 'assets/gaje/jory.jpg',
-        occupation: 'Farmer',
-        birthday: 'January 8, 1973 ',
-        age: 49
-    ),
-    const User(
-        id: 2020301996,
-        name: 'Paul Jowey G. Gaje',
-        relationship: 'Younger Brother',
-        Avatar: 'assets/gaje/jowey.jpg',
-        occupation: 'Student',
-        birthday: 'May 31, 2001',
-        age: 16
-    ),
-    const User(
-        id: 2020305455,
-        name: 'Joe Emmanuel G. Gaje',
-        relationship: 'Youngest Brother',
-        Avatar: 'assets/gaje/manny.jpg',
-        occupation: 'Student',
-        birthday: 'January 6, 2016',
-        age: 6
-    ),
+        Avatar: '',
+        occupation: 'Painter',
+        birthday: '',
+        age: 54
+    )
+    
   ];
 
   @override
