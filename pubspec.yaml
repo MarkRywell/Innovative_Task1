@@ -36,6 +36,9 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  animated_splash_screen: ^1.3.0
+  intuitive_design: ^0.2.2+5
+  page_transition: ^2.0.9
 
 dev_dependencies:
   flutter_test:
@@ -61,37 +64,8 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/gaje/mark.jpg
-    - assets/gaje/jory.jpg
-    - assets/gaje/jowey.jpg
-    - assets/gaje/manny.jpg
-    - assets/gaje/welyn.jpg
-    - assets/benting/llane.JPG
-    - assets/benting/mac.jpg
-    - assets/benting/roger.jpg
-    - assets/benting/nash.jpg
-    - assets/benting/llane2.jpg
-    - assets/benting/llane3.jpg
-    - assets/benting/llane4.jpg
-    - assets/sumagang/gia.jpg
-    - assets/sumagang/remegio.jpg
-    - assets/sumagang/kring.jpg
-    - assets/sumagang/vivian.jpg
-    - assets/tabudlong/van.jpg
-    - assets/tabudlong/ian.jpg
-    - assets/tabudlong/neneth.jpg
-    - assets/tabudlong/val.jpg
-    - assets/tabudlong/valerie.jpg
-    - assets/divinagracia/lp.png
-    - assets/divinagracia/gilda.jpg
-    - assets/divinagracia/serafin.jpg
-    - assets/senining/rj.png
-    - assets/senining/Maria.jpg
-    - assets/senining/Roxein.jpg
-    - assets/tibudan/tibudan.jpg
-    - assets/tibudan/ravenz.jpg
-    - assets/tibudan/stephanie.jpg
-    - assets/tibudan/niño.jpg
+    - assets/
+    - assets/logo/
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

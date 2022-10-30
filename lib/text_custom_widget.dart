@@ -2,23 +2,23 @@ import 'package:flutter/material.dart';
 
 class TextCustom extends StatelessWidget {
 
-  final String text_title;
+  final String textTitle;
   final String data;
 
-  TextCustom({required this.text_title, required this.data});
+  const TextCustom({super.key, required this.textTitle, required this.data});
 
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.only(left: 10, right: 10),
+      padding: const EdgeInsets.only(left: 10, right: 10),
 
       child: Row(
           children: [
-            Container(
+            SizedBox(
               width: 100,
               child: Text(
-                  this.text_title,
-                  style: TextStyle(
+                  textTitle,
+                  style: const TextStyle(
                     fontSize: 14,
                     fontWeight: FontWeight.bold,
 
@@ -26,10 +26,9 @@ class TextCustom extends StatelessWidget {
               ),
             ),
 
-            VerticalDivider(width: 30),
-            Text(": " +
-                this.data,
-                style: TextStyle(
+            const VerticalDivider(width: 30),
+            Text(": $data",
+                style: const TextStyle(
                   fontSize: 14,
                 ))
           ]
