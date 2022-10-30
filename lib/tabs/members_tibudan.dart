@@ -17,7 +17,7 @@ class _Members_TibudanState extends State<Members_Tibudan> {
       id: 2020302940,
       name: 'Chelsea Shaira E. Tibudan',
       relationship: 'Me',
-      Avatar: 'assets/tibudan/chelsea.jpg',
+      Avatar: 'assets/tibudan/tibudan.jpg',
       occupation: 'Student',
       birthday: 'February 10, 1993',
       age: 29
