@@ -53,7 +53,7 @@ class _SimpleAppState extends State<SimpleApp> with SingleTickerProviderStateMix
                 tabs: const [
                   Tab(text: "Mark Rywell G. Gaje"),
                   Tab(text: "Asareel Don Pena"),
-                  Tab(text: "Chelsea Shaira C. Tibudan"),
+                  Tab(text: "Chelsea Shaira E. Tibudan"),
                   Tab(text: "Ralph Jayson Senining"),
                   Tab(text: "Louie Phillip Divinagracia"),
                   Tab(text: "Gia Sumagang"),
