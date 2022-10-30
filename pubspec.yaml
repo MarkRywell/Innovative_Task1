@@ -88,6 +88,10 @@ flutter:
     - assets/senining/rj.png
     - assets/senining/Maria.jpg
     - assets/senining/Roxein.jpg
+    - assets/tibudan/chelsea.jpg
+    - assets/tibudan/ravenz.jpg
+    - assets/tibudan/stephanie.jpg
+    - assets/tibudan/niño.jpg
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

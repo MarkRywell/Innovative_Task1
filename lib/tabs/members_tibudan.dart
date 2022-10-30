@@ -14,49 +14,40 @@ class _Members_TibudanState extends State<Members_Tibudan> {
 
   List<User> users = [
     const User(
-      id: 2020302619,
-      name: 'Mark Rywell G. Gaje',
+      id: 2020302940,
+      name: 'Chelsea Shaira E. Tibudan',
       relationship: 'Me',
-      Avatar: 'assets/gaje/mark.jpg',
+      Avatar: 'assets/tibudan/chelsea.jpg',
       occupation: 'Student',
-      birthday: 'May 31, 2001',
-      age: 21
+      birthday: 'February 10, 1993',
+      age: 29
     ),
     const User(
-        id: 2020302507,
-        name: 'Welyn G. Gaje',
+        id: 2020300123,
+        name: 'Ravenz O. E.',
+        relationship: 'Fiancee',
+        Avatar: 'assets/tibudan/ravenz.jpg',
+        occupation: 'Ordinary Seaman',
+        birthday: 'January 23, 1990',
+        age: 31
+    ),
+    const User(
+        id: 2020300728,
+        name: 'Stephanie E. Dela Cruz',
         relationship: 'Mother',
-        Avatar: 'assets/gaje/welyn.jpg',
-        occupation: 'HouseWife',
-        birthday: 'November 26, 1976',
-        age: 45
+        Avatar: 'assets/tibudan/stephanie.jpg',
+        occupation: 'Public Accountant',
+        birthday: 'July 28, 1971',
+        age: 52
     ),
     const User(
-        id: 2020302940,
-        name: 'Jory B. Gaje',
-        relationship: 'Father',
-        Avatar: 'assets/gaje/jory.jpg',
-        occupation: 'Farmer',
-        birthday: 'January 8, 1973 ',
-        age: 49
-    ),
-    const User(
-        id: 2020301996,
-        name: 'Paul Jowey G. Gaje',
+        id: 2020300194,
+        name: 'Niño Dominique E. Tibudan',
         relationship: 'Younger Brother',
-        Avatar: 'assets/gaje/jowey.jpg',
-        occupation: 'Student',
-        birthday: 'May 31, 2001',
-        age: 16
-    ),
-    const User(
-        id: 2020305455,
-        name: 'Joe Emmanuel G. Gaje',
-        relationship: 'Youngest Brother',
-        Avatar: 'assets/gaje/manny.jpg',
-        occupation: 'Student',
-        birthday: 'January 6, 2016',
-        age: 6
+        Avatar: 'assets/tibudan/niño.jpg',
+        occupation: 'Chef Commis',
+        birthday: 'January 16, 1994',
+        age: 28
     ),
   ];
 
