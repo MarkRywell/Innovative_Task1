@@ -226,9 +226,9 @@ class _SimpleAppState extends State<SimpleApp> with SingleTickerProviderStateMix
                       id: 202030789,
                       name: 'Rowelo Senining',
                       relationship: 'Father',
-                      avatar: 'Icons.person',
+                      avatar: 'assets/senining/rowelo.jpg',
                       occupation: 'Painter',
-                      birthday: 'May 28',
+                      birthday: 'April 27, 1967',
                       age: 54
                   )],
                 ),
