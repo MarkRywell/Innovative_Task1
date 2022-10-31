@@ -30,7 +30,7 @@ class _MemberState extends State<Member> {
             return Card(
               child: ListTile(
                 leading: CircleAvatar(
-                  backgroundImage: AssetImage(user.Avatar),
+                  backgroundImage: AssetImage(user.avatar),
                 ),
                 title: Text(user.name),
                 subtitle: Text(user.relationship),

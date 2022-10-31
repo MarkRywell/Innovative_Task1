@@ -22,7 +22,7 @@ class AnimationScreen extends StatelessWidget {
               )
             ),
           ),
-        nextScreen: SimpleApp(),
+        nextScreen: const SimpleApp(),
         splashTransition: SplashTransition.fadeTransition,
 
         backgroundColor: Colors.blue

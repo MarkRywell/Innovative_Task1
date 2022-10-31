@@ -4,7 +4,7 @@ Mobile Programming 3R1
 
 Gaje, Mark Rywell
 Tibudan, Chelsea Shaira
-Pena, Asareel Don
+Peña, Asareel Don
 Senining, Ralph Jayson
 Divinagracia, Louie Phillip
 Sumagang, Gia
