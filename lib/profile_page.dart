@@ -15,7 +15,7 @@ class ProfilePage extends StatelessWidget {
           title: Text(user.name)
         ),
         body: ListView(
-          padding: EdgeInsets.only(left: 15, right: 15),
+          padding: const EdgeInsets.only(left: 15, right: 15),
 
           children: [
             Container(
@@ -23,7 +23,7 @@ class ProfilePage extends StatelessWidget {
                 child: Center(
                     child: CircleAvatar(
                       radius: 70,
-                      backgroundImage: AssetImage(user.Avatar),
+                      backgroundImage: AssetImage(user.avatar),
                       backgroundColor: Colors.blueGrey[900],
                     )
                 )
